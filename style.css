@@ -10,3 +10,18 @@
   margin-top: 10px;
   background-color: blue;
 }
+
+.face {
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.img-thumbnail {
+  margin-bottom: 20px;
+}
+
+.login-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
