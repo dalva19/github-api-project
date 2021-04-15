@@ -15,10 +15,36 @@
       integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
       crossorigin="anonymous"
     />
-
     <title>Github API Project</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 offset-md-1">
+          <div class="page-header">
+            <h1>Github Face Search</h1>
+            <hr />
+
+            <div class="faces"></div>
+
+            <form class="form-group" action="">
+              <label class="faces-search" for="faces-search"
+                >Search a Face</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="search-query"
+                placeholder="Sha Hash"
+              />
+
+              <button type="button" class="btn btn-primary">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
       integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
